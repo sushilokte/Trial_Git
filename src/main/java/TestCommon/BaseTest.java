@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import Test_01.Practice1_maven.loginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -51,6 +52,10 @@ public class BaseTest {
 	}
 	
  
+	@Test
 	
+	public void change() {
+		System.out.println("architech changes");
+	}
 
 }

@@ -9,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 public class CommonElements {
 	
@@ -37,5 +38,14 @@ public class CommonElements {
 	   System.out.println("newly added code changes");
 	   System.out.println("newly added code changes");
   }
+  
+  
+  @Test
+	
+	public void change() {
+		System.out.println("architech changes");
+	}
+
+  
   
 }
