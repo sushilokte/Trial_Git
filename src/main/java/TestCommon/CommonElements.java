@@ -34,6 +34,7 @@ public class CommonElements {
 	   cart.click();
 	   
 	   System.out.println("newly added code changes");
+	   System.out.println("newly added code changes");
   }
   
 }
