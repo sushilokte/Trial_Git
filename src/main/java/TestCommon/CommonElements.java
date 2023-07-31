@@ -45,6 +45,11 @@ public class CommonElements {
 	public void change() {
 		System.out.println("architech changes");
 	}
+  @Test
+	
+	public void change() {
+		System.out.println("develop2 branch");
+	}
 
   
   
